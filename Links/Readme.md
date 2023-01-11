@@ -12,3 +12,8 @@
 * Playing with credentials
   * The facto Windows tool for playing with Kerberos : [Rubeus](https://github.com/GhostPack/Rubeus)
   * Utilities for playing with PKINIT and certificates: [PKINITtools](https://github.com/dirkjanm/PKINITtools)
+  
+## Techniques
+* Relaying
+  *[ADCS + PetitPotam NTLM Relay: Obtaining krbtgt Hash with Domain Controller Machine Certificate](https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/adcs-+-petitpotam-ntlm-relay-obtaining-krbtgt-hash-with-domain-controller-machine-certificate)
+  
