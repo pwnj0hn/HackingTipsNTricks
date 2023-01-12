@@ -14,5 +14,5 @@ Same as above put write to csv
 * net groups /domain
 
 # Get members of domain group
-* net groups <group name> /domain
+* net groups \<group name\> /domain
   
