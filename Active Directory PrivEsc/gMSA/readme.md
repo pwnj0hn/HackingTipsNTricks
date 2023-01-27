@@ -23,10 +23,10 @@ Get-ADPrincipalGroupMembership -Identity "http_svc$"
 ```powershell
 .\PsExec.exe -i -u velvet\http_svc$ -p foobar cmd.exe
 ```
-![](https://raw.githubusercontent.com/pwnj0hn/HackingTipsNTricks/main/img/gmsa_3.png)
+![](https://raw.githubusercontent.com/pwnj0hn/HackingTipsNTricks/main/img/gmsa_04.png)
 
 
 
 In this case the http_svc$ account have Domain Admin rights, which it really should not have but we see service accounts have way to many priviliges all the time. DA is used in this example as a worst case scenario. It might have other cool priviliges too in other scenarios.
 
-![](https://raw.githubusercontent.com/pwnj0hn/HackingTipsNTricks/main/img/gmsa_4.png)
+![](https://raw.githubusercontent.com/pwnj0hn/HackingTipsNTricks/main/img/gmsa_05.png)
