@@ -13,6 +13,8 @@
   * The facto Windows tool for playing with Kerberos : [Rubeus](https://github.com/GhostPack/Rubeus)
   * Utilities for playing with PKINIT and certificates: [PKINITtools](https://github.com/dirkjanm/PKINITtools)
   * [Responder](https://github.com/lgandx/Responder)
+* Active Directory
+  * Standalone ADModule : [ADModule](https://github.com/samratashok/ADModule)
   
 ## Techniques
 * Relaying
