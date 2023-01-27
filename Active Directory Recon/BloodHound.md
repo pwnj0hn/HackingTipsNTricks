@@ -1,6 +1,8 @@
 # Manual BloodHound queries
 * Find all users with the word 'password' in description.
-  * MATCH (n:User) where n.description contains 'password' return n.description
+```
+MATCH (n:User) where n.description contains 'password' return n.description
+```
 * Find all users member of ENTERPRISE ADMINS@ACME.NO
   * MATCH (n:User)-[:MemberOf*1..]->(g:Group {name:'ENTERPRISE ADMINS@ACME.NO'}) return n.name
 MATCH (c:Computer ) return c.name
