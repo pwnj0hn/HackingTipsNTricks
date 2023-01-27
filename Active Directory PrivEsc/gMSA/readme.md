@@ -4,6 +4,10 @@ Some of the steps in this tutorial used [ADModule](https://github.com/pwnj0hn/Ha
  ```powershell
 Get-ADServiceAccount -Filter * -properties dnshostname
 ```
+![](../img/gmsa_01.jpg?raw=true)
+
+
+
 * Check if gMSA user have any interesting permissions so it is worth hijacking
  ```powershell
 Get-ADPrincipalGroupMembership -Identity "http_svc$"
