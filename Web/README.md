@@ -1,2 +1,2 @@
 # Web stuff
-* [Mime Extensions](mime-ext)
+* [MIME types](MIME-types)
