@@ -4,7 +4,7 @@ Some of the steps in this tutorial used [ADModule](https://github.com/pwnj0hn/Ha
  ```powershell
 Get-ADServiceAccount -Filter * -properties dnshostname
 ```
-![](../img/gmsa_01.jpg?raw=true)
+![](../../img/gmsa_01.jpg?raw=true)
 
 
 
