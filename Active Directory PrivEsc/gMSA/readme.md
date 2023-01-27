@@ -1,5 +1,5 @@
 # Elevate from Local admin to gMSA account
-Some of the steps in this tutorial used [ADModule](https://github.com/pwnj0hn/HackingTipsNTricks/blob/main/Active%20Directory%20Recon/ADModule.md)
+Some of the steps in this  tutorial uses [ADModule](https://github.com/pwnj0hn/HackingTipsNTricks/blob/main/Active%20Directory%20Recon/ADModule.md)
 * Check if any gMSA accounts are present in the domain.
  ```powershell
 Get-ADServiceAccount -Filter * -properties dnshostname
