@@ -15,7 +15,9 @@ Get-ADPrincipalGroupMembership -Identity "http_svc$"
 * Compromise the server which gMSA is assigned too.
 * Download [SysInternals PsExec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec)
 * Open Administrator PowerShell or cmd prompt
+* 
 ![](https://raw.githubusercontent.com/pwnj0hn/HackingTipsNTricks/main/img/gmsa_03.png)
+
 * Use PsExec to spawn a cmd or PowerShell prompt as the gMSA account. Password can be anything. If not giving password as argument, just hit enter at the password prompt.
 
 ```powershell
