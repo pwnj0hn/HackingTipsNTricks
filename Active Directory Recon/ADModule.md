@@ -1,5 +1,8 @@
 # ADModule
 Microsoft signed DLL for the ActiveDirectory PowerShell module
+Download from:
+https://github.com/samratashok/ADModule/blob/master/README.md
+
 
  ```powershell
 PS C:\> Import-Module C:\ADModule\Microsoft.ActiveDirectory.Management.dll -Verbose
