@@ -1,7 +1,7 @@
 # ADModule
 Microsoft signed DLL for the ActiveDirectory PowerShell module
 Download from:
-https://github.com/samratashok/ADModule/blob/master/README.md
+https://github.com/samratashok/ADModule
 
 
  ```powershell
